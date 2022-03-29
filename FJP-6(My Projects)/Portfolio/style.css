@@ -1,0 +1,62 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  padding: 1.5rem;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 5px;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  display: flex;
+  padding: 1.5rem;
+}
+
+.hero img {
+  height: 37.5rem;
+  width: 37.5rem;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio {
+  width: 25rem;
+  height: 15rem;
+  box-shadow: 0px 2px 15px 2px;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills img {
+  height: 35rem;
+  width: 35rem;
+}
+.skill-icons {
+  display: flex;
+  flex-direction: column;
+}
